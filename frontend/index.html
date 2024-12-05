@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Eventos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gestión de Eventos</h1>
+
+    <!-- Formulario para crear o editar un evento -->
+    <form id="formEvento">
+      <input type="text" id="nombre" placeholder="Nombre del Evento" required>
+      <input type="date" id="fecha" required>
+      <input type="text" id="ubicacion" placeholder="Ubicación" required>
+      <input type="text" id="organizador" placeholder="Organizador" required>
+      <button type="submit">Crear Evento</button>
+    </form>
+
+    <!-- Tabla de eventos -->
+    <h2>Lista de Eventos</h2>
+    <table id="eventosTable">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Fecha</th>
+          <th>Ubicación</th>
+          <th>Organizador</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Los eventos se agregarán dinámicamente aquí -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
