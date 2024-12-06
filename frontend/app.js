@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const API_URL = "http://localhost:3000/api/eventos";
+    const API_URL = "https://gestion-eventos-y34h.onrender.com/api/eventos";
     const form = document.getElementById("formEvento");
     const eventosTable = document.getElementById("eventosTable").getElementsByTagName("tbody")[0];
   
